@@ -153,7 +153,6 @@ section {
 }
 
 /* PROFILE-SECTION */
-
 #profile {
   display: flex;
   justify-content: center;
@@ -181,7 +180,6 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  font-size: 1.75rem;
   margin-bottom: 1rem;
 }
 
@@ -198,8 +196,7 @@ section {
 }
 
 .section__p2 {
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-size: 1.75rem;
 }
 
 .section__p2:hover {
@@ -209,10 +206,10 @@ section {
 
 .section__p3 {
   margin-top: 0.5rem;
+  width: 500px;
 }
 
 /* ICONS */
-
 .icon {
   margin-top: 1rem;
   cursor: pointer;
