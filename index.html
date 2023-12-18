@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,8 +12,15 @@
     <title>Vinicius Zoppi</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="shortcut icon"
+      type="imagex/png"
+      href="images/favicon-32x32.png"
+    />
   </head>
+
   <body>
+    <!-- DESKTOP NAV -->
     <nav id="desktop-nav">
       <div class="logo">
         <a href="index.html"> vinicius <span class="zoppi">zoppi</span></a>
@@ -21,7 +28,7 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about"> About </a></li>
-          <li><a href="#Experience"> Experience </a></li>
+          <li><a href="#Experience"> Skills </a></li>
           <li><a href="#Projects"> Projects </a></li>
           <li><a href="#Contact"> Contact </a></li>
         </ul>
@@ -41,12 +48,53 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()"> About </a></li>
-          <li><a href="#Experience" onclick="toggleMenu()"> Experience </a></li>
-          <li><a href="#Projects" onclick="toggleMenu()"> Projects </a></li>
+          <li><a href="#Experience" onclick="toggleMenu()"> Skills </a></li>
+          <li><a href="#Projects" onclick="toggleMenu()"> Project </a></li>
           <li><a href="#Contact" onclick="toggleMenu()"> Contact </a></li>
         </div>
       </div>
     </nav>
+
+    <!-- SECTIONS -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="images/me.jpg" alt="me-profile" />
+      </div>
+      
+      <div class="section__text">
+        <p class="section__p1">Hi, I'm</p>
+        <h1 class="title">Vinicius Zoppi</h1>
+        <p class="section__p2">Frontend Developer</p>
+        <p class="section__p3">
+          Based in Indaiatuba, Brazil, I build web and mobile apps based on
+          company's <strong class="branding"> branding and values. </strong>  Solving problems and giving the user a
+          <strong class="experience"> better experience. </strong> 
+        </p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#Contact'">
+            Contact Me
+          </button>
+        </div>
+
+        <div id="socials_container">
+          <img
+            src="images/linkedin-round-svgrepo-com.svg"
+            alt="My Linkedin profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vinicius-dumont-zoppi-507073120/'"
+          />
+          <img
+            src="images/github-142-svgrepo-com.svg"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ViniciusZoppi'"
+          />
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>
